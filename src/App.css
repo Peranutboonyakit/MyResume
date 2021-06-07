@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+/* ---------- Welcome ---------- */
+.Bg-welcome {
+  background: rgb(252, 253, 130);
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+.Logo-image {
+  margin: 10px;
+}
+img {
+  width: 210px;
+  border-radius: 50%;
+}
+.Text-name {
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.h1 {
+  display: block;
+  font-size: 2em;
+  margin-top: 0.67em;
+  margin-bottom: 0.67em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+}
+.h3 {
+  display: block;
+  font-size: 1.17em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+}
+.Contact {
+  display: flex;
+}
+
+a:hover {
+  transform: translateY(-15px);
+}
+
+/* ---------- About ---------- */
+.bg {
+  background: rgb(254, 255, 224);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.info {
+  margin: 25px;
+  padding: 30px;
+  justify-content: center;
+  border-radius: 30px;
+  box-shadow: 0px 0px 10px rgb(252, 188, 19);
+  background: #fff;
+}
+.info-contact {
+  padding: 30px;
+  justify-content: center;
+  border-radius: 30px;
+  box-shadow: 0px 0px 10px rgb(252, 188, 19);
+  background: #fff;
+}
+
+/* ---------- Skill ---------- */
+.bg-skill{
+  background: rgb(254, 255, 224);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.icon-skill{
+  display: flex;
+}
+
+
+@media screen and (max-width: 768px) {
+  .Bg-welcome {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .bg{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .icon-skill{
+    display: grid;
+    grid-gap: 10px 20px;
+    grid-template-columns: auto auto;
+  }
+}
+.icon{display: inline;}
