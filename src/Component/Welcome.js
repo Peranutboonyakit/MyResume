@@ -9,7 +9,7 @@ const Welcome = () => {
   return (
     <div className="Bg-welcome">
       <div className="Logo-image">
-        <img  src={Yellow} />
+        <img  src={Yellow} alt='Pepo'/>
       </div>
 
       <div className="Text-name">
