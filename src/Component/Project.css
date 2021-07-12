@@ -1,7 +1,15 @@
-.icon-skill a{
+.icon-project{
+    display: flex;
+}
+
+.icon-project a{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     font-weight: bold;
+    box-shadow: 3px 2px 10px rgb(252, 188, 19);
+    margin-right: 20px;
+    border-radius: 20px;
+    background-color: white;
 }
