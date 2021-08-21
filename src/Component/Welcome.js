@@ -3,6 +3,7 @@ import Yellow from "../Image/Yellow.png";
 import facebook from "../Image/facebook.png";
 import instagram from "../Image/instagram.png";
 import line from "../Image/line.png";
+import github from '../Image/github-brands.svg';
 import { Image } from "@chakra-ui/react";
 
 const Welcome = () => {
@@ -24,6 +25,9 @@ const Welcome = () => {
           </a>
           <a href="https://line.me/ti/p/kUdXU71nK9">
             <Image src={line} width="50px" mr={5}/>
+          </a>
+          <a href="https://github.com/Peranutboonyakit">
+            <Image src={github} width="50px" mr={5}/>
           </a>
         </div>
       </div>
